@@ -23,7 +23,7 @@ const dispatch = useDispatch()
     <div className='Navbar'>
       <MDBNavbar expand='lg' light bgColor='white'>
         <MDBContainer size="md">
-          <MDBNavbarBrand href="/Navbar">Creative Product Shop <MDBIcon fab icon="contao" className='logo'/></MDBNavbarBrand>
+          <MDBNavbarBrand href="#">Creative Product Shop <MDBIcon fab icon="contao" className='logo'/></MDBNavbarBrand>
           <MDBBtn color='light' rippleColor='dark'>
         <Link to="/Card">
         <MDBIcon fas icon="align-justify"/> All Product
