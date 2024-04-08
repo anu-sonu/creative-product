@@ -35,7 +35,7 @@ export default function Footer() {
             floating
             className='m-1'
             style={{ backgroundColor: '#dd4b39' }}
-            href='#!'
+            href='https://google.co.in' target='blank'
             role='button'
           >
             <MDBIcon fab icon='google' />
@@ -72,9 +72,9 @@ export default function Footer() {
         </section>
       </MDBContainer>
 
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className='text-center p-3' style={{ backgroundColor: "darkorange" }}>
         © 2024 Copyright:
-        <a className='text-white' href='https://mdbootstrap.com/'>
+        <a className='text-blue' href='https://creative-product.vercel.app/'>
            Creative-Product Shop
         </a>
       </div>
