@@ -26,8 +26,8 @@ export default function Card() {
     <MDBCardImage src={item.thumbnail} position='top' alt='creative' style={{height:"200px"}}/>
     </MDBRipple>
     <MDBCardBody>
-        <MDBCardTitle style={{height:"60px"}}>{item.title}</MDBCardTitle>
-        <MDBCardText>
+        <MDBCardTitle>{item.title}</MDBCardTitle>
+        <MDBCardText style={{height:"100px"}}>
         {item.description}
         </MDBCardText>
         <h4>(₹) : {item.price}</h4>
